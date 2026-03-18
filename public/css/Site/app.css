@@ -80,8 +80,8 @@ body {
     margin: 0;
     padding: 0;
     border-radius: 18px;
-    background: #b89c60;
-    color: #050947;
+    background: #b81419;
+    color: #fff;
     line-height: 50px;
     font-size: 18px;
     font-weight: 700;
@@ -93,8 +93,8 @@ body {
 }
 
 .cookie-consent__agree:hover {
-    background: #050947;
-    color: #b89c60;
+    background: #d6181f;
+    color: #fff;
 }
 
 /* ============================================================
