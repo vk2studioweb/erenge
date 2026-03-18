@@ -1,0 +1,977 @@
+@media screen and (min-width: 1651px) and (max-width: 1850px) {
+    #bannerSlider, .slick-list, .bannerItem{ height: 705px; }
+    .bannerContent{ bottom: 65px; }
+}
+
+@media screen and (min-width: 1451px) and (max-width: 1650px) {
+
+    .box { width: 1300px; }
+    #bannerSlider, .slick-list, .bannerItem{ height: 620px; }
+    .bannerContent{ bottom: 55px; }
+    .obraCard{ width: 400px; }
+    .obraCardInfo{ padding: 0 15px; }
+    .noticiaCard, .noticiaCardLink{ width: 400px; }
+
+    .empresaMvvCol{ width: 390px; }
+
+    .servicoCardImgWrap{ height: 360px; }
+    #servicoDetalheLeft{ width: 560px; height: 420px; }
+    #servicoDetalheRight{ width: 700px; }
+
+    #obraDetalheLeft{ width: 410px; height: 325px; }
+    #obraDetalheRight{ width: 780px; }
+
+    #obraInfoMapa{ width: 580px; }
+    #obraInfoDados{ width: 660px; }
+
+    .beneficioCard{ width: 390px; }
+
+}
+
+@media screen and (min-width: 1251px) and (max-width: 1450px) {
+
+    .box { width: 1000px; }
+    
+    #headerNavList{ gap: 25px; }
+    #pageHero{ min-height: 160px; }
+    #footerColBrand { margin-right: 65px; }
+    #footerColLinksUteis { margin-right: 100px; }
+    #footerColLinks { margin-right: 210px; }
+
+    #bannerSlider, .slick-list, .bannerItem{ height: 534px; }
+    .bannerContent{ bottom: 50px; }
+
+    #oQueFazemosLeft{ width: 400px; }
+    .oQueFazemosServicoActive .oQueFazemosServicoTitle, .oQueFazemosServicoTitleLink:hover .oQueFazemosServicoTitle{ font-size: 32px; }
+    #oQueFazemosRight{ width: 450px; height: 310px; }
+
+    .obraCard{ width: 310px; }
+    .obraCardInfo{ padding: 0 15px; }
+    .obraCardImgWrap{ height: 200px; }
+    .noticiaCard, .noticiaCardLink{ width: 400px; }
+    .obraCardNome{ font-size: 20px; }
+    .obraCardLocal{ font-size: 18px; }
+    .obraCardButton{ font-size: 16px; }
+
+    .noticiaCard, .noticiaCardLink{ width: 310px; }
+    .noticiaCardImgWrap{ height: 180px;}
+    .noticiaCardButton{ font-size: 16px; }
+    
+    #empresaHistoriaLeft{ width: 440px; }
+    #empresaHistoriaTitle{ font-size: 36px; }
+    #empresaHistoriaTexto, #empresaHistoriaTexto p{ font-size: 16px; }
+    #empresaHistoriaRight{ width: 500px; height: 380px; }
+    .empresaMvvTitle { font-size: 40px; }
+    .empresaMvvCol{ width: 290px; gap: 10px; }
+    .empresaMvvTexto p { font-size: 16px; }
+    #empresaMapa{ height: 510px; }
+
+    .servicoCardImgWrap{ height: 280px; }
+    #servicoDetalheLeft{ width: 400px; height: 300px; }
+    #servicoDetalheRight{ width: 560px; gap: 10px; }
+    #servicoDetalheTexto p{ font-size: 16px; line-height: 1.2; }
+
+    #obraDetalhe{ padding-bottom: 50px; }
+    #obraDetalheLeft{ width: 410px; height: 325px; }
+    #obraDetalheRight{ width: 550px; }
+    #obraDetalheTexto p{ font-size: 16px; line-height: 1.2; }
+
+
+    #obraInfoMapa{ width: 100%; height: 300px; }
+    #obraInfoDados{ width: 100%; margin-top: 30px; }
+    #obraInfoDetalhesGrid ul{ gap: 20px 40px;  }
+    #obraInfoDetalhesGrid ul li { width: 25%; }
+
+    .beneficioCard{ width: 390px; }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1250px) {
+
+    .box { width: 900px; }
+    #headerNavList{ gap: 15px; }
+    .headerNavItemIntranet{ margin-left: 10px; }
+    #pageHero{ min-height: 160px; }
+    #footerColBrand { margin-right: 45px; }
+    #footerColLinksUteis { margin-right: 60px; }
+    #footerColLinks { margin-right: 140px; }
+    #bannerSlider, .slick-list, .bannerItem{ height: 430px; }
+    .bannerContent{ bottom: 35px; }
+
+    #oQueFazemosLeft{ width: 400px; }
+    .oQueFazemosServicoActive .oQueFazemosServicoTitle, .oQueFazemosServicoTitleLink:hover .oQueFazemosServicoTitle{ font-size: 32px; }
+    #oQueFazemosRight{ width: 450px; height: 310px; }
+
+    #obrasExecutadas{ gap: 40px 0; }
+    #obrasExecutadasTitleWrap{ margin-bottom: 30px; gap: 10px; }
+    #obrasExecutadasGrid{ gap: 10px; }
+    .obraCard{ width: 290px; }
+    .obraCardInfo{ padding: 0 15px; }
+    .obraCardImgWrap{ height: 200px; }
+    .noticiaCard, .noticiaCardLink{ width: 400px; }
+    .obraCardNome{ font-size: 20px; }
+    .obraCardLocal{ font-size: 18px; }
+    .obraCardButton{ font-size: 16px; }
+
+    #novidadesTitleWrap{ margin-bottom: 30px;}
+    #novidadesGrid{ gap: 10px; }
+    .noticiaCard, .noticiaCardLink{ width: 290px; }
+    .noticiaCardImgWrap{ height: 180px;}
+    .noticiaCardButton{ font-size: 16px; }
+
+    #homeCtaTitle { font-size: 35px; }
+    #homeCtaDesc { font-size: 18px; }
+    #homeCtaText { max-width: 430px; }
+    #homeCtaBtn { gap: 20px; font-size: 20px; }
+    .icon-whatsappCta { font-size: 40px; width: 40px; height: 40px; }
+    
+    #empresaHistoriaLeft{ width: 100%; }
+    #empresaHistoriaTitle{ font-size: 36px; }
+    #empresaHistoriaTexto, #empresaHistoriaTexto p{ font-size: 16px; }
+    #empresaHistoriaRight{ width: 500px; height: 380px; margin-top: 40px; }
+    #empresaMvvContent{ gap: 40px; }
+    .empresaMvvTitle { font-size: 40px; }
+    .empresaMvvCol{ width: 270px; gap: 10px; }
+    .empresaMvvTexto p { font-size: 16px; line-height: 1.4; }
+    #empresaMapa{ height: 510px; }
+    
+    #servicoDetalheContent{ flex-direction: column-reverse; }
+    .servicoCardImgWrap{ height: 280px; }
+    #servicoDetalheLeft{ width: 400px; height: 300px; margin-top: 30px; }
+    #servicoDetalheRight{ width: 100%; gap: 10px; }
+    #servicoDetalheTexto p{ font-size: 16px; line-height: 1.2; }
+
+    #obraDetalhe{ padding-bottom: 50px; }
+    #obraDetalheLeft{ width: 410px; height: 325px; }
+    #obraDetalheRight{ width: 550px; }
+    #obraDetalheTexto p{ font-size: 16px; line-height: 1.2; }
+
+
+    #obraInfoMapa{ width: 100%; height: 300px; }
+    #obraInfoDados{ width: 100%; margin-top: 30px; }
+    #obraInfoDetalhesGrid ul{ gap: 20px 40px;  }
+    #obraInfoDetalhesGrid ul li { width: 25%; }
+
+    .beneficioCard{ width: 390px; }
+
+}
+
+@media screen and (min-width: 800px) and (max-width: 1023px) {
+
+    .box { width: 90%; }
+    
+    #mainNav{ width: 40%; }
+    #headerNav{ right: -100%; position: fixed; opacity: 0; top:80px; visibility: hidden; transition: right 0.5s ease, opacity 0.4s ease, visibility 0.3s; overflow-y: auto; }
+    #headerNavList{ flex-direction: column; gap: 0; }
+
+    #headerMenuBtn{ display: flex; flex-wrap: wrap; align-items: center; justify-content: center; align-content: center; gap: 10px; width: 40px; height: 40px; }
+    #headerMenuBtn:hover{ gap: 8px; }
+    #headerMenuBtn:hover .headerMenuBtnBar{ height: 4px; width: 28px; }
+
+    #headerNav.showMenu{ align-items: center; align-content: center; justify-content: center; right: 0; width: 100%; height: auto; opacity: 1; visibility: visible; z-index: 999; background: #fff; width: 250px; top: 80px; gap: 11px; }
+    #headerNav.showMenu .headerNavItem{ height: auto; width: 100%; border-bottom: 1px solid #dddd; }
+    #headerNav.showMenu .headerNavLink{ height: auto; width: 100%; box-sizing: border-box; padding: 20px 0; }
+    #headerNav.showMenu .headerNavItemIntranet{ margin: 0; }
+    #headerNav.showMenu .headerNavLinkIntranet{ padding: 20px 0; width: 100%; }
+    #headerMenuBtn.animBar{ gap: 0; }
+
+
+    #pageHero{ min-height: 160px; }
+    #footerColBrand { margin-right: 0; margin-bottom: 35px; }
+    #footerColLinksUteis { margin-right: 0; margin-bottom: 35px; }
+    #footerColLinks {  margin-right: 0; margin-bottom: 35px; }
+
+    #footerContent { align-items: center; flex-direction: column; align-content: center; }
+    #footerLogo { align-content: center; align-items: center; justify-content: center; }
+    #footerAddress { text-align: center; }
+    #footerNetworks { justify-content: center; align-content: center; }
+    .footerColTitle { text-align: center; }
+    .footerColLink { text-align: center; }
+    .footerColItem { align-content: center; align-items: center; justify-content: center; }
+    #footerMail { text-align: center; }
+    #footerVk2 { align-content: center; justify-content: center; flex-direction: column; }
+    #footerColContact { align-items: center; align-content: center; justify-content: center; }
+    #footerVk2Label { max-width: 200px; }
+
+    #bannerSlider, .slick-list, .bannerItem{ height: 600px; }
+    .bannerContent{ bottom: 35px; }
+
+    #oQueFazemosLeft{ width: 400px; }
+    .oQueFazemosServicoActive .oQueFazemosServicoTitle, .oQueFazemosServicoTitleLink:hover .oQueFazemosServicoTitle{ font-size: 32px; }
+    #oQueFazemosRight{ width: 450px; height: 310px; }
+
+    #obrasExecutadas{ gap: 40px 0; }
+    #obrasExecutadasTitleWrap{ margin-bottom: 30px; gap: 10px; }
+    #obrasExecutadasGrid{ gap: 10px; }
+    .obraCard{ width: 230px; }
+    .obraCardInfo{ padding: 0 15px; }
+    .obraCardImgWrap{ height: 160px; }
+    .noticiaCard, .noticiaCardLink{ width: 400px; }
+    .obraCardNome{ font-size: 20px; }
+    .obraCardLocal{ font-size: 18px; }
+    .obraCardButton{ font-size: 16px; }
+
+    #novidadesTitleWrap{ margin-bottom: 30px;}
+    #novidadesGrid{ gap: 10px; }
+    .noticiaCard, .noticiaCardLink{ width: 230px; }
+    .noticiaCardImgWrap{ height: 150px;}
+    .noticiaCardButton{ font-size: 16px; }
+
+    #homeCtaContent{ gap: 50px; }
+    #homeCtaTitle { font-size: 35px; }
+    #homeCtaDesc { font-size: 18px; }
+    #homeCtaText { max-width: 430px; }
+    #homeCtaBtn { gap: 20px; font-size: 20px; }
+    .icon-whatsappCta { font-size: 40px; width: 40px; height: 40px; }
+    
+    #empresaHistoriaLeft{ width: 100%; }
+    #empresaHistoriaTitle{ font-size: 36px; }
+    #empresaHistoriaTexto, #empresaHistoriaTexto p{ font-size: 16px; }
+    #empresaHistoriaRight{ width: 500px; height: 380px; margin-top: 40px; }
+    #empresaMvvContent{ gap: 40px; align-items: center; align-content: center; justify-content: center; }
+    .empresaMvvTitle { font-size: 40px; text-align: center; }
+    .empresaMvvCol{ width: 45%; gap: 10px; }
+    #empresaMvvValores{ width: 90%; }
+    .empresaMvvTexto p { font-size: 16px; line-height: 1.4; }
+    .empresaMvvValoresGrid{ align-content: center; align-items: center; justify-content: center; }
+    #empresaMapa{ height: 380px; }
+    
+    #servicoDetalheContent{ flex-direction: column-reverse; }
+    .servicoCardImgWrap{ height: 280px; }
+    #servicoDetalheLeft{ width: 400px; height: 300px; margin-top: 30px; }
+    #servicoDetalheRight{ width: 100%; gap: 10px; }
+    #servicoDetalheTexto p{ font-size: 16px; line-height: 1.2; }
+
+    #obraDetalhe{ padding-bottom: 50px; }
+    #obraDetalheLeft{ width: 410px; height: 325px; }
+    #obraDetalheRight{ width: 550px; }
+    #obraDetalheTexto p{ font-size: 16px; line-height: 1.2; }
+
+    #obraInfoMapa{ width: 100%; height: 300px; }
+    #obraInfoDados{ width: 100%; margin-top: 30px; }
+    #obraInfoDetalhesGrid ul{ gap: 20px 10px;  }
+    #obraInfoDetalhesGrid ul li { width: 30%; }
+
+    #trabalheBeneficiosGrid{ gap: 35px; }
+    .beneficioCard{ width: 45%; }
+    .beneficioCardImgWrap{ height: 200px; }
+}
+
+@media screen and (min-width: 600px) and (max-width: 799px) {
+
+    .box { width: 90%; }
+    
+    #mainNav{ width: 40%; }
+    #headerNav{ right: -100%; position: fixed; opacity: 0; top:80px; visibility: hidden; transition: right 0.5s ease, opacity 0.4s ease, visibility 0.3s; overflow-y: auto; }
+    #headerNavList{ flex-direction: column; gap: 0; }
+
+    #headerMenuBtn{ display: flex; flex-wrap: wrap; align-items: center; justify-content: center; align-content: center; gap: 10px; width: 40px; height: 40px; }
+    #headerMenuBtn:hover{ gap: 8px; }
+    #headerMenuBtn:hover .headerMenuBtnBar{ height: 4px; width: 28px; }
+
+    #headerNav.showMenu{ align-items: center; align-content: center; justify-content: center; right: 0; width: 100%; height: auto; opacity: 1; visibility: visible; z-index: 999; background: #fff; width: 250px; top: 80px; gap: 11px; }
+    #headerNav.showMenu .headerNavItem{ height: auto; width: 100%; border-bottom: 1px solid #dddd; }
+    #headerNav.showMenu .headerNavLink{ height: auto; width: 100%; box-sizing: border-box; padding: 20px 0; }
+    #headerNav.showMenu .headerNavItemIntranet{ margin: 0; }
+    #headerNav.showMenu .headerNavLinkIntranet{ padding: 20px 0; width: 100%; }
+    #headerMenuBtn.animBar{ gap: 0; }
+
+    #pageHero{ min-height: 160px; }
+    #footerColBrand { margin-right: 0; margin-bottom: 35px; }
+    #footerColLinksUteis { margin-right: 0; margin-bottom: 35px; }
+    #footerColLinks {  margin-right: 0; margin-bottom: 35px; }
+
+    #footerContent { align-items: center; flex-direction: column; align-content: center; }
+    #footerLogo { align-content: center; align-items: center; justify-content: center; }
+    #footerAddress { text-align: center; }
+    #footerNetworks { justify-content: center; align-content: center; }
+    .footerColTitle { text-align: center; }
+    .footerColLink { text-align: center; }
+    .footerColItem { align-content: center; align-items: center; justify-content: center; }
+    #footerMail { text-align: center; }
+    #footerVk2 { align-content: center; justify-content: center; flex-direction: column; }
+    #footerColContact { align-items: center; align-content: center; justify-content: center; }
+    #footerVk2Label { max-width: 200px; }
+
+    #bannerSlider, .slick-list, .bannerItem{ height: 450px; }
+    .bannerContent{ display: none; }
+
+    #oQueFazemosLeft{ width: 400px; }
+    .oQueFazemosServicoActive .oQueFazemosServicoTitle, .oQueFazemosServicoTitleLink:hover .oQueFazemosServicoTitle{ font-size: 32px; }
+    #oQueFazemosRight{ width: 450px; height: 310px; }
+
+    #obrasExecutadas{ gap: 40px 0; }
+    #obrasExecutadasTitleWrap{ margin-bottom: 30px; gap: 10px; }
+    #obrasExecutadasGrid{ gap: 10px; }
+    .obraCard{ width: 100%; }
+    .obraCardInfo{ padding: 0 15px; }
+    .obraCardImgWrap{ height: 300px; }
+    .obraCardNome{ font-size: 20px; }
+    .obraCardLocal{ font-size: 18px; }
+    .obraCardButton{ font-size: 16px; }
+
+    #novidadesTitleWrap{ margin-bottom: 30px;}
+    #novidadesGrid{ gap: 10px; }
+    .noticiaCard, .noticiaCardLink{ width: 100%; }
+    .noticiaCardImgWrap{ height: 280px;}
+    .noticiaCardButton{ font-size: 16px; }
+
+    #homeCtaContent{ gap: 50px; }
+    #homeCtaTitle { font-size: 35px; }
+    #homeCtaDesc { font-size: 18px; }
+    #homeCtaText { max-width: 430px; }
+    #homeCtaBtn { gap: 20px; font-size: 20px; }
+    .icon-whatsappCta { font-size: 40px; width: 40px; height: 40px; }
+
+    #pageHeroBreadcrumb{ display: none; }
+    
+    #empresaHistoriaLeft{ width: 100%; }
+    #empresaHistoriaTitle{ font-size: 36px; }
+    #empresaHistoriaTexto, #empresaHistoriaTexto p{ font-size: 16px; }
+    #empresaHistoriaRight{ width: 500px; height: 380px; margin-top: 40px; }
+    #empresaMvvContent{ gap: 40px; align-items: center; align-content: center; justify-content: center; }
+    .empresaMvvTitle { font-size: 40px; text-align: center; }
+    .empresaMvvCol{ width: 45%; gap: 10px; }
+    #empresaMvvValores{ width: 90%; }
+    .empresaMvvTexto p { font-size: 16px; line-height: 1.4; }
+    .empresaMvvValoresGrid{ align-content: center; align-items: center; justify-content: center; }
+    #empresaMapaCard{ height: auto; width: 100%; position: unset; }
+    #empresaMapaLeaflet{ height: 380px; }
+    #empresaMapa{ height: auto; }
+    
+    #servicoDetalheContent{ flex-direction: column-reverse; }
+    .servicoCard{ width: 100%; }
+    .servicoCardImgWrap{ height: 280px; }
+    .servicoCardInfo{ padding: 10px 0; }
+    #servicoDetalheLeft{ width: 100%; height: 300px; margin-top: 30px; }
+    #servicoDetalheRight{ width: 100%; gap: 10px; }
+    #servicoDetalheTexto p{ font-size: 16px; line-height: 1.2; }
+
+    #obraDetalhe{ padding-bottom: 50px; }
+    #obraDetalheLeft{ width: 100%; height: 325px; }
+    #obraDetalheRight{ width: 550px; }
+    #obraDetalheTexto p{ font-size: 16px; line-height: 1.2; }
+
+    #obraInfoMapa{ width: 100%; height: 300px; }
+    #obraInfoDados{ width: 100%; margin-top: 30px; }
+    #obraInfoDetalhesGrid ul{ gap: 20px 10px; align-content: center; align-items: center; justify-content: center; }
+    #obraInfoDetalhesGrid ul li { width: 45%; }
+
+    #trabalheBeneficiosGrid{ gap: 35px; }
+    .beneficioCard{ width: 45%; }
+    .beneficioCardImgWrap{ height: 200px; }
+    
+}
+
+@media screen and (min-width: 460px) and (max-width: 599px) {
+
+    .box { width: 90%; }
+    
+    #mainNav{ width: 40%; }
+    #headerNav{ right: -100%; position: fixed; opacity: 0; top:80px; visibility: hidden; transition: right 0.5s ease, opacity 0.4s ease, visibility 0.3s; overflow-y: auto; }
+    #headerNavList{ flex-direction: column; gap: 0; }
+
+    #headerMenuBtn{ display: flex; flex-wrap: wrap; align-items: center; justify-content: center; align-content: center; gap: 10px; width: 40px; height: 40px; }
+    #headerMenuBtn:hover{ gap: 8px; }
+    #headerMenuBtn:hover .headerMenuBtnBar{ height: 4px; width: 28px; }
+
+    #headerNav.showMenu{ align-items: center; align-content: center; justify-content: center; right: 0; width: 100%; height: auto; opacity: 1; visibility: visible; z-index: 999; background: #fff; width: 250px; top: 80px; gap: 11px; }
+    #headerNav.showMenu .headerNavItem{ height: auto; width: 100%; border-bottom: 1px solid #dddd; }
+    #headerNav.showMenu .headerNavLink{ height: auto; width: 100%; box-sizing: border-box; padding: 20px 0; }
+    #headerNav.showMenu .headerNavItemIntranet{ margin: 0; }
+    #headerNav.showMenu .headerNavLinkIntranet{ padding: 20px 0; width: 100%; }
+    #headerMenuBtn.animBar{ gap: 0; }
+
+    #pageHero{ min-height: 160px; }
+    #footerColBrand { margin-right: 0; margin-bottom: 35px; }
+    #footerColLinksUteis { margin-right: 0; margin-bottom: 35px; }
+    #footerColLinks {  margin-right: 0; margin-bottom: 35px; }
+
+    #footerContent { align-items: center; flex-direction: column; align-content: center; }
+    #footerLogo { align-content: center; align-items: center; justify-content: center; }
+    #footerAddress { text-align: center; }
+    #footerNetworks { justify-content: center; align-content: center; }
+    .footerColTitle { text-align: center; }
+    .footerColLink { text-align: center; }
+    .footerColItem { align-content: center; align-items: center; justify-content: center; }
+    #footerMail { text-align: center; }
+    #footerVk2 { align-content: center; justify-content: center; flex-direction: column; }
+    #footerColContact { align-items: center; align-content: center; justify-content: center; }
+    #footerVk2Label { max-width: 200px; }
+
+    #bannerSlider, .slick-list, .bannerItem{ height: 345px; }
+    .bannerContent{ display: none; }
+
+    #oQueFazemosLeft{ width: 400px; }
+    .oQueFazemosServicoActive .oQueFazemosServicoTitle, .oQueFazemosServicoTitleLink:hover .oQueFazemosServicoTitle{ font-size: 32px; }
+    #oQueFazemosRight{ width: 450px; height: 310px; }
+
+    #obrasExecutadas{ gap: 40px 0; }
+    #obrasExecutadasTitleWrap{ margin-bottom: 30px; gap: 10px; }
+    #obrasExecutadasGrid{ gap: 10px; }
+    .obraCard{ width: 100%; }
+    .obraCardInfo{ padding: 0 15px; }
+    .obraCardImgWrap{ height: 300px; }
+    .obraCardNome{ font-size: 20px; }
+    .obraCardLocal{ font-size: 18px; }
+    .obraCardButton{ font-size: 16px; }
+
+    #novidadesTitleWrap{ margin-bottom: 30px;}
+    #novidadesGrid{ gap: 10px; }
+    .noticiaCard, .noticiaCardLink{ width: 100%; }
+    .noticiaCardImgWrap{ height: 280px;}
+    .noticiaCardButton{ font-size: 16px; }
+
+    #homeCtaContent{ gap: 50px; }
+    #homeCtaTitle { font-size: 35px; }
+    #homeCtaDesc { font-size: 18px; }
+    #homeCtaText { max-width: 430px; }
+    #homeCtaBtn { gap: 20px; font-size: 20px; }
+    .icon-whatsappCta { font-size: 40px; width: 40px; height: 40px; }
+
+    #pageHero, #pageHeroBreadcrumb{ display: none; }
+    
+    #empresaHistoria{ margin-top: 45px; }
+    #empresaHistoriaLeft{ width: 100%; }
+    #empresaHistoriaTitle{ font-size: 36px; }
+    #empresaHistoriaTexto, #empresaHistoriaTexto p{ font-size: 16px; }
+    #empresaHistoriaRight{ width: 500px; height: 260px; margin-top: 40px; }
+    #empresaMvvContent{ gap: 40px; align-items: center; align-content: center; justify-content: center; }
+    .empresaMvvTitle { font-size: 40px; text-align: center; }
+    .empresaMvvCol{ width: 100%; gap: 10px; }
+    #empresaMvvValores{ width: 90%; }
+    .empresaMvvTexto p { font-size: 16px; line-height: 1.4; }
+    .empresaMvvValoresGrid{ align-content: center; align-items: center; justify-content: center; }
+    #empresaMapaCard{ height: auto; width: 100%; position: unset; }
+    #empresaMapaLeaflet{ height: 380px; }
+    #empresaMapa{ height: auto; }
+    
+    #servicoDetalhe{ padding-bottom: 0; margin-top: 45px; }
+    #servicosPrestadosWrap{ margin-top: 45px; }
+    #servicoDetalheContent{ flex-direction: column-reverse; }
+    .servicoCard{ width: 100%; }
+    .servicoCardImgWrap{ height: 280px; }
+    .servicoCardInfo{ padding: 10px 0; }
+    #servicoDetalheLeft{ width: 100%; height: 300px; margin-top: 30px; }
+    #servicoDetalheRight{ width: 100%; gap: 10px; }
+    #servicoDetalheTexto p{ font-size: 16px; line-height: 1.2; }
+    #servicoObras{ padding-top: 0; }
+
+    #obraDetalhe{ padding-bottom: 0; margin-top: 45px; }
+    #obrasExecutadas{ margin-top: 45px; }
+    #obraDetalhe{ padding-bottom: 50px; }
+    #obraDetalheLeft{ width: 100%; height: 325px; }
+    #obraDetalheRight{ width: 550px; margin-top: 35px; }
+    #obraDetalheTexto p{ font-size: 16px; line-height: 1.2; }
+
+    #obraInfo{ padding-bottom: 0; }
+    #obraInfoMapa{ width: 100%; height: 300px; }
+    #obraInfoDados{ width: 100%; margin-top: 30px; }
+    #obraInfoDetalhesGrid ul{ gap: 20px 10px; align-content: center; align-items: center; justify-content: center; }
+    #obraInfoDetalhesGrid ul li { width: 100%; }
+
+    .trabalheFormField{ flex: unset; width: 100%; }
+    #trabalheBeneficiosGrid{ gap: 35px; }
+    .beneficioCard{ width: 100%; }
+    .beneficioCardImgWrap{ height: 300px; }
+ 
+}
+
+@media screen and (min-width: 440px) and (max-width: 459px) {
+    .box { width: 90%; }
+    
+    #mainNav{ width: 40%; }
+    #headerNav{ right: -100%; position: fixed; opacity: 0; top:80px; visibility: hidden; transition: right 0.5s ease, opacity 0.4s ease, visibility 0.3s; overflow-y: auto; }
+    #headerNavList{ flex-direction: column; gap: 0; }
+
+    #headerMenuBtn{ display: flex; flex-wrap: wrap; align-items: center; justify-content: center; align-content: center; gap: 10px; width: 40px; height: 40px; }
+    #headerMenuBtn:hover{ gap: 8px; }
+    #headerMenuBtn:hover .headerMenuBtnBar{ height: 4px; width: 28px; }
+
+    #headerNav.showMenu{ align-items: center; align-content: center; justify-content: center; right: 0; width: 100%; height: auto; opacity: 1; visibility: visible; z-index: 999; background: #fff; width: 250px; top: 80px; gap: 11px; }
+    #headerNav.showMenu .headerNavItem{ height: auto; width: 100%; border-bottom: 1px solid #dddd; }
+    #headerNav.showMenu .headerNavLink{ height: auto; width: 100%; box-sizing: border-box; padding: 20px 0; }
+    #headerNav.showMenu .headerNavItemIntranet{ margin: 0; }
+    #headerNav.showMenu .headerNavLinkIntranet{ padding: 20px 0; width: 100%; }
+    #headerMenuBtn.animBar{ gap: 0; }
+
+    #pageHero{ min-height: 160px; }
+    #footerColBrand { margin-right: 0; margin-bottom: 35px; }
+    #footerColLinksUteis { margin-right: 0; margin-bottom: 35px; }
+    #footerColLinks {  margin-right: 0; margin-bottom: 35px; }
+
+    #footerContent { align-items: center; flex-direction: column; align-content: center; }
+    #footerLogo { align-content: center; align-items: center; justify-content: center; }
+    #footerAddress { text-align: center; }
+    #footerNetworks { justify-content: center; align-content: center; }
+    .footerColTitle { text-align: center; }
+    .footerColLink { text-align: center; }
+    .footerColItem { align-content: center; align-items: center; justify-content: center; }
+    #footerMail { text-align: center; }
+    #footerVk2 { align-content: center; justify-content: center; flex-direction: column; }
+    #footerColContact { align-items: center; align-content: center; justify-content: center; }
+    #footerVk2Label { max-width: 200px; }
+
+    #bannerSlider, .slick-list, .bannerItem{ height: 330px; }
+    .bannerContent{ display: none; }
+
+    #oQueFazemosLeft{ width: 400px; }
+    .oQueFazemosServicoActive .oQueFazemosServicoTitle, .oQueFazemosServicoTitleLink:hover .oQueFazemosServicoTitle{ font-size: 32px; }
+    #oQueFazemosRight{ width: 450px; height: 310px; }
+
+    #obrasExecutadas{ gap: 40px 0; }
+    #obrasExecutadasTitleWrap{ margin-bottom: 30px; gap: 10px; }
+    #obrasExecutadasGrid{ gap: 10px; }
+    .obraCard{ width: 100%; }
+    .obraCardInfo{ padding: 0 15px; }
+    .obraCardImgWrap{ height: 300px; }
+    .obraCardNome{ font-size: 20px; }
+    .obraCardLocal{ font-size: 18px; }
+    .obraCardButton{ font-size: 16px; }
+
+    #novidadesTitleWrap{ margin-bottom: 30px;}
+    #novidadesGrid{ gap: 10px; }
+    .noticiaCard, .noticiaCardLink{ width: 100%; }
+    .noticiaCardImgWrap{ height: 280px;}
+    .noticiaCardButton{ font-size: 16px; }
+
+    #homeCtaContent{ gap: 50px; }
+    #homeCtaTitle { font-size: 35px; }
+    #homeCtaDesc { font-size: 18px; }
+    #homeCtaText { max-width: 430px; }
+    #homeCtaBtn { gap: 20px; font-size: 20px; }
+    .icon-whatsappCta { font-size: 40px; width: 40px; height: 40px; }
+
+    #pageHero, #pageHeroBreadcrumb{ display: none; }
+    
+    #empresaHistoria{ margin-top: 45px; }
+    #empresaHistoriaLeft{ width: 100%; }
+    #empresaHistoriaTitle{ font-size: 36px; }
+    #empresaHistoriaTexto, #empresaHistoriaTexto p{ font-size: 16px; }
+    #empresaHistoriaRight{ width: 500px; height: 260px; margin-top: 40px; }
+    #empresaMvvContent{ gap: 40px; align-items: center; align-content: center; justify-content: center; }
+    .empresaMvvTitle { font-size: 40px; text-align: center; }
+    .empresaMvvCol{ width: 100%; gap: 10px; }
+    #empresaMvvValores{ width: 90%; }
+    .empresaMvvTexto p { font-size: 16px; line-height: 1.4; }
+    .empresaMvvValoresGrid{ align-content: center; align-items: center; justify-content: center; }
+    #empresaMapaCard{ height: auto; width: 100%; position: unset; }
+    #empresaMapaLeaflet{ height: 380px; }
+    #empresaMapa{ height: auto; }
+    
+    #servicoDetalhe{ padding-bottom: 0; margin-top: 45px; }
+    #servicosPrestadosWrap{ margin-top: 45px; }
+    #servicoDetalheContent{ flex-direction: column-reverse; }
+    .servicoCard{ width: 100%; }
+    .servicoCardImgWrap{ height: 280px; }
+    .servicoCardInfo{ padding: 10px 0; }
+    #servicoDetalheLeft{ width: 100%; height: 300px; margin-top: 30px; }
+    #servicoDetalheRight{ width: 100%; gap: 10px; }
+    #servicoDetalheTexto p{ font-size: 16px; line-height: 1.2; }
+    #servicoObras{ padding-top: 0; }
+
+    #servicoDetalheTitle, 
+    #servicoObrasTitle, 
+    #servicosPrestadosTitle, 
+    #empresaHistoriaTitle, 
+    #obrasExecutadasTitleSection, 
+    #novidadesTitleSection, 
+    #homeCtaTitle, 
+    #empresaMvvTitle,
+    #trabalheFormTitle,
+    #contatoFormTitle,
+    #outrosContatosTitle,
+    #trabalheBeneficiosTitle{ font-size: 36px; }
+    
+
+    #obraDetalhe{ padding-bottom: 0; margin-top: 45px; }
+    #obrasExecutadas{ margin-top: 45px; }
+    #obraDetalhe{ padding-bottom: 50px; }
+    #obraDetalheLeft{ width: 100%; height: 325px; }
+    #obraDetalheRight{ width: 550px; margin-top: 35px; }
+    #obraDetalheTexto p{ font-size: 16px; line-height: 1.2; }
+
+    #obraInfo{ padding-bottom: 0; }
+    #obraInfoMapa{ width: 100%; height: 300px; }
+    #obraInfoDados{ width: 100%; margin-top: 30px; }
+    #obraInfoDetalhesGrid ul{ gap: 20px 10px; align-content: center; align-items: center; justify-content: center; }
+    #obraInfoDetalhesGrid ul li { width: 100%; }
+
+    #trabalheForm{ margin-top: 45px; }
+    .trabalheFormField{ flex: unset; width: 100%; }
+    #trabalheBeneficiosGrid{ gap: 35px; }
+    .beneficioCard{ width: 100%; }
+    .beneficioCardImgWrap{ height: 300px; }
+
+    #contatoForm{ margin-top: 45px; }
+}
+
+@media screen and (min-width: 400px) and (max-width: 439px) {
+    .box { width: 90%; }
+    
+    #mainNav{ width: 40%; }
+    #headerNav{ right: -100%; position: fixed; opacity: 0; top:80px; visibility: hidden; transition: right 0.5s ease, opacity 0.4s ease, visibility 0.3s; overflow-y: auto; }
+    #headerNavList{ flex-direction: column; gap: 0; }
+
+    #headerMenuBtn{ display: flex; flex-wrap: wrap; align-items: center; justify-content: center; align-content: center; gap: 10px; width: 40px; height: 40px; }
+    #headerMenuBtn:hover{ gap: 8px; }
+    #headerMenuBtn:hover .headerMenuBtnBar{ height: 4px; width: 28px; }
+
+    #headerNav.showMenu{ align-items: center; align-content: center; justify-content: center; right: 0; width: 100%; height: auto; opacity: 1; visibility: visible; z-index: 999; background: #fff; width: 250px; top: 80px; gap: 11px; }
+    #headerNav.showMenu .headerNavItem{ height: auto; width: 100%; border-bottom: 1px solid #dddd; }
+    #headerNav.showMenu .headerNavLink{ height: auto; width: 100%; box-sizing: border-box; padding: 20px 0; }
+    #headerNav.showMenu .headerNavItemIntranet{ margin: 0; }
+    #headerNav.showMenu .headerNavLinkIntranet{ padding: 20px 0; width: 100%; }
+    #headerMenuBtn.animBar{ gap: 0; }
+
+    #pageHero{ min-height: 160px; }
+    #footerColBrand { margin-right: 0; margin-bottom: 35px; }
+    #footerColLinksUteis { margin-right: 0; margin-bottom: 35px; }
+    #footerColLinks {  margin-right: 0; margin-bottom: 35px; }
+
+    #footerContent { align-items: center; flex-direction: column; align-content: center; }
+    #footerLogo { align-content: center; align-items: center; justify-content: center; }
+    #footerAddress { text-align: center; }
+    #footerNetworks { justify-content: center; align-content: center; }
+    .footerColTitle { text-align: center; }
+    .footerColLink { text-align: center; }
+    .footerColItem { align-content: center; align-items: center; justify-content: center; }
+    #footerMail { text-align: center; }
+    #footerVk2 { align-content: center; justify-content: center; flex-direction: column; }
+    #footerColContact { align-items: center; align-content: center; justify-content: center; }
+    #footerVk2Label { max-width: 200px; }
+
+    #bannerSlider, .slick-list, .bannerItem{ height: 300px; }
+    .bannerContent{ display: none; }
+
+    #oQueFazemosLeft{ width: 400px; }
+    .oQueFazemosServicoActive .oQueFazemosServicoTitle, .oQueFazemosServicoTitleLink:hover .oQueFazemosServicoTitle{ font-size: 32px; }
+    #oQueFazemosRight{ width: 450px; height: 310px; }
+
+    #obrasExecutadas{ gap: 40px 0; }
+    #obrasExecutadasTitleWrap{ margin-bottom: 30px; gap: 10px; }
+    #obrasExecutadasGrid{ gap: 10px; }
+    .obraCard{ width: 100%; }
+    .obraCardInfo{ padding: 0 15px; }
+    .obraCardImgWrap{ height: 300px; }
+    .obraCardNome{ font-size: 20px; }
+    .obraCardLocal{ font-size: 18px; }
+    .obraCardButton{ font-size: 16px; }
+
+    #novidadesTitleWrap{ margin-bottom: 30px;}
+    #novidadesGrid{ gap: 10px; }
+    .noticiaCard, .noticiaCardLink{ width: 100%; }
+    .noticiaCardImgWrap{ height: 280px;}
+    .noticiaCardButton{ font-size: 16px; }
+
+    #homeCtaContent{ gap: 50px; }
+    #homeCtaTitle { font-size: 35px; }
+    #homeCtaDesc { font-size: 18px; }
+    #homeCtaText { max-width: 430px; }
+    #homeCtaBtn { gap: 20px; font-size: 20px; }
+    .icon-whatsappCta { font-size: 40px; width: 40px; height: 40px; }
+
+    #pageHero, #pageHeroBreadcrumb{ display: none; }
+    
+    #empresaHistoria{ margin-top: 45px; }
+    #empresaHistoriaLeft{ width: 100%; }
+    #empresaHistoriaTitle{ font-size: 36px; }
+    #empresaHistoriaTexto, #empresaHistoriaTexto p{ font-size: 16px; }
+    #empresaHistoriaRight{ width: 500px; height: 260px; margin-top: 40px; }
+    #empresaMvvContent{ gap: 40px; align-items: center; align-content: center; justify-content: center; }
+    .empresaMvvTitle { font-size: 40px; text-align: center; }
+    .empresaMvvCol{ width: 100%; gap: 10px; }
+    #empresaMvvValores{ width: 90%; }
+    .empresaMvvTexto p { font-size: 16px; line-height: 1.4; }
+    .empresaMvvValoresGrid{ align-content: center; align-items: center; justify-content: center; }
+    #empresaMapaCard{ height: auto; width: 100%; position: unset; }
+    #empresaMapaLeaflet{ height: 380px; }
+    #empresaMapa{ height: auto; }
+    
+    #servicoDetalhe{ padding-bottom: 0; margin-top: 45px; }
+    #servicosPrestadosWrap{ margin-top: 45px; }
+    #servicoDetalheContent{ flex-direction: column-reverse; }
+    .servicoCard{ width: 100%; }
+    .servicoCardImgWrap{ height: 280px; }
+    .servicoCardInfo{ padding: 10px 0; }
+    #servicoDetalheLeft{ width: 100%; height: 300px; margin-top: 30px; }
+    #servicoDetalheRight{ width: 100%; gap: 10px; }
+    #servicoDetalheTexto p{ font-size: 16px; line-height: 1.2; }
+    #servicoObras{ padding-top: 0; }
+
+    #servicoDetalheTitle, 
+    #servicoObrasTitle, 
+    #servicosPrestadosTitle, 
+    #empresaHistoriaTitle, 
+    #obrasExecutadasTitleSection, 
+    #novidadesTitleSection, 
+    #homeCtaTitle, 
+    #empresaMvvTitle,
+    #trabalheFormTitle,
+    #contatoFormTitle,
+    #outrosContatosTitle,
+    #trabalheBeneficiosTitle{ font-size: 36px; }
+    
+
+    #obraDetalhe{ padding-bottom: 0; margin-top: 45px; }
+    #obrasExecutadas{ margin-top: 45px; }
+    #obraDetalhe{ padding-bottom: 50px; }
+    #obraDetalheLeft{ width: 100%; height: 325px; }
+    #obraDetalheRight{ width: 550px; margin-top: 35px; }
+    #obraDetalheTexto p{ font-size: 16px; line-height: 1.2; }
+
+    #obraInfo{ padding-bottom: 0; }
+    #obraInfoMapa{ width: 100%; height: 300px; }
+    #obraInfoDados{ width: 100%; margin-top: 30px; }
+    #obraInfoDetalhesGrid ul{ gap: 20px 10px; align-content: center; align-items: center; justify-content: center; }
+    #obraInfoDetalhesGrid ul li { width: 100%; }
+
+    #trabalheForm{ margin-top: 45px; }
+    .trabalheFormField{ flex: unset; width: 100%; }
+    #trabalheBeneficiosGrid{ gap: 35px; }
+    .beneficioCard{ width: 100%; }
+    .beneficioCardImgWrap{ height: 300px; }
+
+    #contatoForm{ margin-top: 45px; }
+ 
+}
+@media screen and (min-width: 390px) and (max-width: 399px) {
+    .box { width: 90%; }
+    
+    #mainNav{ width: 40%; }
+    #headerNav{ right: -100%; position: fixed; opacity: 0; top:80px; visibility: hidden; transition: right 0.5s ease, opacity 0.4s ease, visibility 0.3s; overflow-y: auto; }
+    #headerNavList{ flex-direction: column; gap: 0; }
+
+    #headerMenuBtn{ display: flex; flex-wrap: wrap; align-items: center; justify-content: center; align-content: center; gap: 10px; width: 40px; height: 40px; }
+    #headerMenuBtn:hover{ gap: 8px; }
+    #headerMenuBtn:hover .headerMenuBtnBar{ height: 4px; width: 28px; }
+
+    #headerNav.showMenu{ align-items: center; align-content: center; justify-content: center; right: 0; width: 100%; height: auto; opacity: 1; visibility: visible; z-index: 999; background: #fff; width: 250px; top: 80px; gap: 11px; }
+    #headerNav.showMenu .headerNavItem{ height: auto; width: 100%; border-bottom: 1px solid #dddd; }
+    #headerNav.showMenu .headerNavLink{ height: auto; width: 100%; box-sizing: border-box; padding: 20px 0; }
+    #headerNav.showMenu .headerNavItemIntranet{ margin: 0; }
+    #headerNav.showMenu .headerNavLinkIntranet{ padding: 20px 0; width: 100%; }
+    #headerMenuBtn.animBar{ gap: 0; }
+
+    #pageHero{ min-height: 160px; }
+    #footerColBrand { margin-right: 0; margin-bottom: 35px; }
+    #footerColLinksUteis { margin-right: 0; margin-bottom: 35px; }
+    #footerColLinks {  margin-right: 0; margin-bottom: 35px; }
+
+    #footerContent { align-items: center; flex-direction: column; align-content: center; }
+    #footerLogo { align-content: center; align-items: center; justify-content: center; }
+    #footerAddress { text-align: center; }
+    #footerNetworks { justify-content: center; align-content: center; }
+    .footerColTitle { text-align: center; }
+    .footerColLink { text-align: center; }
+    .footerColItem { align-content: center; align-items: center; justify-content: center; }
+    #footerMail { text-align: center; }
+    #footerVk2 { align-content: center; justify-content: center; flex-direction: column; }
+    #footerColContact { align-items: center; align-content: center; justify-content: center; }
+    #footerVk2Label { max-width: 200px; }
+
+    #bannerSlider, .slick-list, .bannerItem{ height: 290px; }
+    .bannerContent{ display: none; }
+
+    #oQueFazemosLeft{ width: 400px; }
+    .oQueFazemosServicoActive .oQueFazemosServicoTitle, .oQueFazemosServicoTitleLink:hover .oQueFazemosServicoTitle{ font-size: 32px; }
+    #oQueFazemosRight{ width: 450px; height: 310px; }
+
+    #obrasExecutadas{ gap: 40px 0; }
+    #obrasExecutadasTitleWrap{ margin-bottom: 30px; gap: 10px; }
+    #obrasExecutadasGrid{ gap: 10px; }
+    .obraCard{ width: 100%; }
+    .obraCardInfo{ padding: 0 15px; }
+    .obraCardImgWrap{ height: 300px; }
+    .obraCardNome{ font-size: 20px; }
+    .obraCardLocal{ font-size: 18px; }
+    .obraCardButton{ font-size: 16px; }
+
+    #novidadesTitleWrap{ margin-bottom: 30px;}
+    #novidadesGrid{ gap: 10px; }
+    .noticiaCard, .noticiaCardLink{ width: 100%; }
+    .noticiaCardImgWrap{ height: 280px;}
+    .noticiaCardButton{ font-size: 16px; }
+
+    #homeCtaContent{ gap: 50px; }
+    #homeCtaTitle { font-size: 35px; }
+    #homeCtaDesc { font-size: 18px; }
+    #homeCtaText { max-width: 430px; }
+    #homeCtaBtn { gap: 20px; font-size: 20px; }
+    .icon-whatsappCta { font-size: 40px; width: 40px; height: 40px; }
+
+    #pageHero, #pageHeroBreadcrumb{ display: none; }
+    
+    #empresaHistoria{ margin-top: 45px; }
+    #empresaHistoriaLeft{ width: 100%; }
+    #empresaHistoriaTitle{ font-size: 36px; }
+    #empresaHistoriaTexto, #empresaHistoriaTexto p{ font-size: 16px; }
+    #empresaHistoriaRight{ width: 500px; height: 260px; margin-top: 40px; }
+    #empresaMvvContent{ gap: 40px; align-items: center; align-content: center; justify-content: center; }
+    .empresaMvvTitle { font-size: 40px; text-align: center; }
+    .empresaMvvCol{ width: 100%; gap: 10px; }
+    #empresaMvvValores{ width: 90%; }
+    .empresaMvvTexto p { font-size: 16px; line-height: 1.4; }
+    .empresaMvvValoresGrid{ align-content: center; align-items: center; justify-content: center; }
+    #empresaMapaCard{ height: auto; width: 100%; position: unset; }
+    #empresaMapaLeaflet{ height: 380px; }
+    #empresaMapa{ height: auto; }
+    
+    #servicoDetalhe{ padding-bottom: 0; margin-top: 45px; }
+    #servicosPrestadosWrap{ margin-top: 45px; }
+    #servicoDetalheContent{ flex-direction: column-reverse; }
+    .servicoCard{ width: 100%; }
+    .servicoCardImgWrap{ height: 280px; }
+    .servicoCardInfo{ padding: 10px 0; }
+    #servicoDetalheLeft{ width: 100%; height: 300px; margin-top: 30px; }
+    #servicoDetalheRight{ width: 100%; gap: 10px; }
+    #servicoDetalheTexto p{ font-size: 16px; line-height: 1.2; }
+    #servicoObras{ padding-top: 0; }
+
+    #servicoDetalheTitle, 
+    #servicoObrasTitle, 
+    #servicosPrestadosTitle, 
+    #empresaHistoriaTitle, 
+    #obrasExecutadasTitleSection, 
+    #novidadesTitleSection, 
+    #homeCtaTitle, 
+    #empresaMvvTitle,
+    #trabalheFormTitle,
+    #contatoFormTitle,
+    #outrosContatosTitle,
+    #trabalheBeneficiosTitle{ font-size: 36px; }
+    
+
+    #obraDetalhe{ padding-bottom: 0; margin-top: 45px; }
+    #obrasExecutadas{ margin-top: 45px; }
+    #obraDetalhe{ padding-bottom: 50px; }
+    #obraDetalheLeft{ width: 100%; height: 325px; }
+    #obraDetalheRight{ width: 550px; margin-top: 35px; }
+    #obraDetalheTexto p{ font-size: 16px; line-height: 1.2; }
+
+    #obraInfo{ padding-bottom: 0; }
+    #obraInfoMapa{ width: 100%; height: 300px; }
+    #obraInfoDados{ width: 100%; margin-top: 30px; }
+    #obraInfoDetalhesGrid ul{ gap: 20px 10px; align-content: center; align-items: center; justify-content: center; }
+    #obraInfoDetalhesGrid ul li { width: 100%; }
+
+    #trabalheForm{ margin-top: 45px; }
+    .trabalheFormField{ flex: unset; width: 100%; }
+    #trabalheBeneficiosGrid{ gap: 35px; }
+    .beneficioCard{ width: 100%; }
+    .beneficioCardImgWrap{ height: 300px; }
+
+    #contatoForm{ margin-top: 45px; }
+}
+
+@media screen and (min-width: 300px) and (max-width: 389px) {
+    .box { width: 100%; max-width: 300px; }
+    
+    #mainNav{ width: 40%; }
+    #headerNav{ right: -100%; position: fixed; opacity: 0; top:80px; visibility: hidden; transition: right 0.5s ease, opacity 0.4s ease, visibility 0.3s; overflow-y: auto; }
+    #headerNavList{ flex-direction: column; gap: 0; }
+
+    #headerMenuBtn{ display: flex; flex-wrap: wrap; align-items: center; justify-content: center; align-content: center; gap: 10px; width: 40px; height: 40px; }
+    #headerMenuBtn:hover{ gap: 8px; }
+    #headerMenuBtn:hover .headerMenuBtnBar{ height: 4px; width: 28px; }
+
+    #headerNav.showMenu{ align-items: center; align-content: center; justify-content: center; right: 0; width: 100%; height: auto; opacity: 1; visibility: visible; z-index: 999; background: #fff; width: 250px; top: 80px; gap: 11px; }
+    #headerNav.showMenu .headerNavItem{ height: auto; width: 100%; border-bottom: 1px solid #dddd; }
+    #headerNav.showMenu .headerNavLink{ height: auto; width: 100%; box-sizing: border-box; padding: 20px 0; }
+    #headerNav.showMenu .headerNavItemIntranet{ margin: 0; }
+    #headerNav.showMenu .headerNavLinkIntranet{ padding: 20px 0; width: 100%; }
+    #headerMenuBtn.animBar{ gap: 0; }
+
+    #pageHero{ min-height: 160px; }
+    #footerColBrand { margin-right: 0; margin-bottom: 35px; }
+    #footerColLinksUteis { margin-right: 0; margin-bottom: 35px; }
+    #footerColLinks {  margin-right: 0; margin-bottom: 35px; }
+
+    #footerContent { align-items: center; flex-direction: column; align-content: center; }
+    #footerLogo { align-content: center; align-items: center; justify-content: center; }
+    #footerAddress { text-align: center; }
+    #footerNetworks { justify-content: center; align-content: center; }
+    .footerColTitle { text-align: center; }
+    .footerColLink { text-align: center; }
+    .footerColItem { align-content: center; align-items: center; justify-content: center; }
+    #footerMail { text-align: center; }
+    #footerVk2 { align-content: center; justify-content: center; flex-direction: column; }
+    #footerColContact { align-items: center; align-content: center; justify-content: center; }
+    #footerVk2Label { max-width: 200px; }
+
+    #bannerSlider, .slick-list, .bannerItem{ height: 225px; }
+    .bannerContent{ display: none; }
+
+    #oQueFazemosLeft{ width: 400px; }
+    .oQueFazemosServicoActive .oQueFazemosServicoTitle, .oQueFazemosServicoTitleLink:hover .oQueFazemosServicoTitle{ font-size: 32px; }
+    #oQueFazemosRight{ width: 450px; height: 310px; }
+
+    #obrasExecutadas{ gap: 40px 0; }
+    #obrasExecutadasTitleWrap{ margin-bottom: 30px; gap: 10px; }
+    #obrasExecutadasGrid{ gap: 10px; }
+    .obraCard{ width: 100%; }
+    .obraCardInfo{ padding: 0 15px; }
+    .obraCardImgWrap{ height: 300px; }
+    .obraCardNome{ font-size: 20px; }
+    .obraCardLocal{ font-size: 18px; }
+    .obraCardButton{ font-size: 16px; }
+
+    #novidadesTitleWrap{ margin-bottom: 30px;}
+    #novidadesGrid{ gap: 10px; }
+    .noticiaCard, .noticiaCardLink{ width: 100%; }
+    .noticiaCardImgWrap{ height: 280px;}
+    .noticiaCardButton{ font-size: 16px; }
+
+    #homeCtaContent{ gap: 50px; }
+    #homeCtaTitle { font-size: 35px; }
+    #homeCtaDesc { font-size: 18px; }
+    #homeCtaText { max-width: 430px; }
+    #homeCtaBtn { gap: 20px; font-size: 20px; }
+    .icon-whatsappCta { font-size: 40px; width: 40px; height: 40px; }
+
+    #pageHero, #pageHeroBreadcrumb{ display: none; }
+    
+    #empresaHistoria{ margin-top: 45px; }
+    #empresaHistoriaLeft{ width: 100%; }
+    #empresaHistoriaTitle{ font-size: 36px; }
+    #empresaHistoriaTexto, #empresaHistoriaTexto p{ font-size: 16px; }
+    #empresaHistoriaRight{ width: 500px; height: 260px; margin-top: 40px; }
+    #empresaMvvContent{ gap: 40px; align-items: center; align-content: center; justify-content: center; }
+    .empresaMvvTitle { font-size: 40px; text-align: center; }
+    .empresaMvvCol{ width: 100%; gap: 10px; }
+    #empresaMvvValores{ width: 90%; }
+    .empresaMvvTexto p { font-size: 16px; line-height: 1.4; }
+    .empresaMvvValoresGrid{ align-content: center; align-items: center; justify-content: center; }
+    #empresaMapaCard{ height: auto; width: 100%; position: unset; }
+    #empresaMapaLeaflet{ height: 380px; }
+    #empresaMapa{ height: auto; }
+    
+    #servicoDetalhe{ padding-bottom: 0; margin-top: 45px; }
+    #servicosPrestadosWrap{ margin-top: 45px; }
+    #servicoDetalheContent{ flex-direction: column-reverse; }
+    .servicoCard{ width: 100%; }
+    .servicoCardImgWrap{ height: 280px; }
+    .servicoCardInfo{ padding: 10px 0; }
+    #servicoDetalheLeft{ width: 100%; height: 300px; margin-top: 30px; }
+    #servicoDetalheRight{ width: 100%; gap: 10px; }
+    #servicoDetalheTexto p{ font-size: 16px; line-height: 1.2; }
+    #servicoObras{ padding-top: 0; }
+
+    #obraDetalhe{ padding-bottom: 0; margin-top: 45px; }
+    #obrasExecutadas{ margin-top: 45px; }
+    #obraDetalhe{ padding-bottom: 50px; }
+    #obraDetalheLeft{ width: 100%; height: 325px; }
+    #obraDetalheRight{ width: 550px; margin-top: 35px; }
+    #obraDetalheTexto p{ font-size: 16px; line-height: 1.2; }
+
+    #obraInfo{ padding-bottom: 0; }
+    #obraInfoMapa{ width: 100%; height: 300px; }
+    #obraInfoDados{ width: 100%; margin-top: 30px; }
+    #obraInfoDetalhesGrid ul{ gap: 20px 10px; align-content: center; align-items: center; justify-content: center; }
+    #obraInfoDetalhesGrid ul li { width: 100%; }
+
+    .trabalheFormField{ flex: unset; width: 100%; }
+    #trabalheBeneficiosGrid{ gap: 35px; }
+    .beneficioCard{ width: 100%; }
+    .beneficioCardImgWrap{ height: 300px; }
+}

@@ -1,0 +1,508 @@
+/*
+ * Página Estilo CSS Painel Administrativo
+ * Copyright 2011-2018 Equipe VK2 Authors
+ * Licensed under EULA
+ * Configurações Responsive Mode
+*/
+@media only screen and (min-width: 516px) and (max-width: 1170px) {
+    #button-select {
+        width: 150px;
+    }
+    #main-button-list {
+        height: auto;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media only screen and (min-width: 516px) and (max-width: 1000px) {
+    #header {
+        height: 120px;
+    }
+
+    .icon-collect-menu {
+        display: none;
+    }
+
+    .navbar-brand {
+        display: block;
+        width: 100%;
+    }
+
+    #main-top-bar {
+        display: block;
+        float: none;
+        width: 100%;
+        padding-left: calc((100% - 392px)/2);
+        margin-left: 0;
+    }
+
+    #main-identification-page {
+        margin-top: 10px;
+    }
+
+    #main-top-shorts .main-item-menu-responsive {
+        display: inline-block;
+    }
+
+    #menu-responsive {
+        display: block;
+        width: 60px;
+        height: 50px;
+    }
+
+    #main-sidebar {
+        display: none;
+        width: 100%;
+        top: 120px;
+    }
+
+    .main-name-group {
+        text-align: center;
+    }
+
+    .icon-group-sidebar-menu::before {
+        line-height: 55px;
+        font-size: 30px;
+    }
+
+    .name-group {
+        line-height: 55px;
+        font-size: 30px;
+        width: auto;
+    }
+
+    .treeview-show li {
+        border-bottom: 2px solid #2a323c;
+    }
+
+    .treeview-menu a {
+        height: 50px;
+        line-height: 50px;
+        font-size: 25px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .icon-link-page::before {
+        font-size: 15px;
+        margin: 0;
+    }
+
+    /**
+    * Conteudo principal
+    */
+    #main-content {
+        padding: 10px;
+        margin-left: 30px;
+    }
+
+    /** Section Buttons for List */
+    #main-button-list {
+        height: auto;
+    }
+
+    #button-select {
+        display: none;
+    }
+
+    #button-delete {
+        display: none;
+    }
+
+    .main-button-list {
+        height: 45px;
+        line-height: 45px;
+    }
+
+    #button-insert {
+        width: 150px;
+        margin-right: 10px;
+    }
+
+    #button-trash {
+        width: 130px;
+        margin-right: 0;
+    }
+
+
+    /** 
+    *search 
+    */
+    #main-form-serach {
+        display: block;
+        width: 100%;
+    }
+
+    .input-search {
+        width: 80%;
+    }
+
+    .button-search {
+        width: 20%;
+        font-size: 16px;
+        line-height: 0;
+    }
+
+    #main-register-per-page {
+        display: none;
+    }
+
+    /** 
+    * Listagem listLines 
+    */
+    .item-title-date:first-child {
+        display: none;
+    }
+
+    .main-items-list-data .item-list-date:first-child {
+        display: none;
+    }
+
+    #main-list-data {
+        overflow: auto;
+    }
+
+    #title-list-data {
+        min-width: 790px;
+    }
+
+    .main-list-data {
+        min-width: 790px;
+    }
+
+    /* #region Reports */
+
+    section.report .actions-continer {
+        display: block;
+    }
+
+    section.report .generate-report {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    /* #endregion */
+}
+
+@media only screen and (min-width: 360px) and (max-width: 850px) {
+
+    /* #region Reports */
+    #main-form.report {
+        padding: 20px 5px 20px;
+        text-align: center;
+    }
+
+    section.report .generate-report {
+        margin: 10px 10px 0px 0;
+    }
+
+    section.report .print-report {
+        margin-right: 0;
+    }
+
+    section.report .text-separator.two {
+        display: block;
+        margin: 7px 0 5px 0;
+    }
+
+    /* #endregion */
+
+}
+
+@media only screen and (min-width: 360px) and (max-width: 700px) {
+    #button-delete-one {
+        display: block;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    #button-goBack {
+        margin: 0;
+        width: 45%
+    }
+
+    #button-goBack.button-permission {
+        width: 100%;
+        margin: 0;
+    }
+
+    #button-insert {
+        margin-right: 10%;
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    #button-insert.button-permission-clone {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #button-trash {
+        margin: 0;
+        width: 45%
+    }
+
+    #main-identification-page {
+        margin-top: 10px;
+    }
+
+
+    /* #region Reports */
+
+    section.report .actions-continer {
+        display: block;
+    }
+
+    section.report .generate-report {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+
+    /* #endregion */
+
+}
+
+@media only screen and (min-width: 350px) and (max-width: 550px) {
+    #main-form-list li {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 515px) {
+    #header {
+        height: 120px;
+    }
+
+    .navbar-brand {
+        display: none;
+    }
+
+    .icon-collect-menu {
+        display: none;
+    }
+
+    #main-top-bar {
+        height: 120px;
+        display: block;
+        float: none;
+        width: 100%;
+        padding-left: calc((100% - 240px)/2);
+        margin: 0;
+    }
+
+    #main-top-user {
+        display: block;
+        width: 240px;
+        padding: 0 auto;
+    }
+
+    #main-top-shorts {
+        display: block;
+        width: 240px;
+    }
+
+    #main-top-shorts .main-item-menu-responsive {
+        display: inline-block;
+    }
+
+    #menu-responsive {
+        display: block;
+    }
+
+    #main-sidebar {
+        display: none;
+        width: 100%;
+        top: 120px;
+    }
+
+    .main-name-group {
+        text-align: center;
+    }
+
+    .icon-group-sidebar-menu::before {
+        line-height: 55px;
+        font-size: 30px;
+    }
+
+    .name-group {
+        line-height: 55px;
+        font-size: 30px;
+        width: auto;
+    }
+
+    .treeview-menu a {
+        height: 60px;
+        line-height: 60px;
+        font-size: 25px;
+        text-align: center;
+        border-bottom: 2px solid #2a323c;
+    }
+
+    .icon-link-page {
+        display: none;
+    }
+
+    .icon-link-page::before {
+        font-size: 15px;
+        margin: 0;
+        display: none;
+    }
+
+    /**
+    * Conteudo principal
+    */
+    #main-content {
+        padding: 10px;
+    }
+
+    /** Section Buttons for List */
+    #main-button-list {
+        height: 115px;
+    }
+
+    #button-select {
+        display: none;
+    }
+
+    #button-delete {
+        display: none;
+    }
+
+    .main-button-list {
+        height: 45px;
+        line-height: 45px;
+    }
+
+    .page-select-identification {
+        font-size: 14px;
+    }
+
+    .title-page-identification {
+        font-size: 17px;
+    }
+
+
+
+    /** 
+    *search 
+    */
+    #main-form-serach {
+        display: block;
+        width: 100%;
+    }
+
+    .input-search {
+        width: 80%;
+    }
+
+    .button-search {
+        width: 20%;
+        font-size: 8px;
+    }
+
+    #main-register-per-page {
+        display: none;
+    }
+
+    /** 
+    * Listagem listLines 
+    */
+    .item-title-date:first-child {
+        display: none;
+    }
+
+    .main-items-list-data .item-list-date:first-child {
+        display: none;
+    }
+
+    #main-list-data {
+        overflow: auto;
+    }
+
+    #title-list-data {
+        min-width: 790px;
+    }
+
+    .main-list-data {
+        min-width: 790px;
+    }
+
+    /* #region Reports */
+    #main-form.report {
+        padding: 20px 5px 20px;
+        text-align: center;
+    }
+
+    section.report .generate-report {
+        margin: 10px 10px 0px 0;
+    }
+
+    section.report .print-report {
+        margin-right: 0;
+    }
+
+    section.report .text-separator.two {
+        display: block;
+        margin: 7px 0 5px 0;
+    }
+
+    /* #endregion */
+}
+
+
+/*___________________________________*/
+/* #region  Paginate */
+
+@media only screen and (min-width: 350px) and (max-width: 1550px) {
+    .main-register-title{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 1480px) {
+
+    #main-paginate {
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    #main-paginate-solo{
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .main-register-title{
+        display: inline-block;
+    }
+
+}
+
+
+@media only screen and (min-width: 350px) and (max-width: 1000px) {
+    #main-paginate{
+        height: auto;
+    }
+
+    #main-paginate-solo{
+        height: auto;
+        padding: 0 20px;
+    }
+    
+    .page-item {
+        width: 50px;
+        height: 60px;
+        margin: 6px 3px;
+        line-height: 55px;
+    }
+}
+
+/* #endregion */
+
+/*___________________________________*/

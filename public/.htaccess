@@ -1,0 +1,50 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    RewriteEngine On
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+
+# =========================================================
+# CACHE DE ARQUIVOS ESTÁTICOS (2 DIAS)
+# =========================================================
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresDefault "access plus 2 days"
+
+    # Tipos específicos
+    ExpiresByType image/webp "access plus 2 days"
+    ExpiresByType image/jpeg "access plus 2 days"
+    ExpiresByType image/png "access plus 2 days"
+    ExpiresByType image/gif "access plus 2 days"
+    ExpiresByType image/svg+xml "access plus 2 days"
+    ExpiresByType text/css "access plus 2 days"
+    ExpiresByType application/javascript "access plus 2 days"
+    ExpiresByType font/woff "access plus 2 days"
+    ExpiresByType font/woff2 "access plus 2 days"
+    ExpiresByType application/font-woff "access plus 2 days"
+</IfModule>
+
+<IfModule mod_headers.c>
+    # Define cache HTTP para 2 dias (172800 segundos)
+    <FilesMatch "\.(js|css|jpg|jpeg|png|gif|webp|svg|woff|woff2)$">
+        Header always set Cache-Control "public, max-age=172800, immutable"
+        Header always set Expires "access plus 2 days"
+    </FilesMatch>
+</IfModule>
