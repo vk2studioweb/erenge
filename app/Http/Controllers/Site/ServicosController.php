@@ -26,7 +26,7 @@ class ServicosController extends Controller
     }
 
     public function getServices(){
-        $servicos = Servicos::where('status', 1)->where('delete', 0)->get();
+        $servicos = Servicos::where('status', 1)->where('delete', 0)->orderBy('ORDER', 'ASC')->get();
         $servicos = $this->getUploadListArray(17, $servicos, 'id_servico');
         return $servicos;
     }
@@ -55,6 +55,7 @@ class ServicosController extends Controller
         $this->pageData->servico = $this->getService($id);
         $this->pageData->obras = $this->getObras($id);
         $this->pageData->page = "Serviços";
+        $this->pageData->serviconome = $this->pageData->servico->nome;
         
         return view('Site.servico')->with('thisdata', $this->pageData);
     }

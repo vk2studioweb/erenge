@@ -25,7 +25,7 @@ class ObrasController extends Controller
     }
 
     public function getObras(){
-        $obras = Obras::where('status', 1)->where('delete', 0)->paginate(1);
+        $obras = Obras::where('status', 1)->where('delete', 0)->paginate(12);
         $obras = $this->getUploadListArray(18, $obras, 'id_obra');
         return $obras;
     }

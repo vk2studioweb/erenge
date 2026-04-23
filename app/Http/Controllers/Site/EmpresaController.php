@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers\Site;
-use App\Models\Admin\TextBusiness;
+use App\Models\Admin\Textbusiness;
 use Illuminate\Support\Carbon;
 use DB;
 

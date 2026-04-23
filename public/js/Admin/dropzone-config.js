@@ -6,90 +6,87 @@
 
 $(document).ready(function () {
     if ($("#my-dropzone").length) {
-        var total_photos_counter = 0;
-        var name = "";
-        var drop = $("#preview-thumb").html();
+
+        // Desabilita auto-discover para evitar dupla inicialização
+        Dropzone.autoDiscover = false;
+
+        var drop    = $("#preview-thumb").html();
         let formUrl = $("#my-dropzone").data("url") ?? null;
         let gallery = $("#my-dropzone").data("gallery") ?? null;
-        Dropzone.options.fileDropZone = false;
 
         if (formUrl !== null) {
-            
+
             if (gallery) {
                 let myDropzone = new Dropzone("#my-dropzone", {
                     url: formUrl,
                     chunking: true,
                     method: "POST",
                     maxFilesize: 210000000,
-                    chunkSize: 16000000,
-                    // Se true, os chunks individuais são enviados simultaneamente
-                    parallelChunkUploads: false,
-                    previewTemplate: drop,
-                    addRemoveLinks: false,
-                    dictRemoveFile: "Remove file",
-                    dictFileTooBig: "Image is larger than 200MB",
+                    chunkSize: 2000000,
                     timeout: 0,
+                    sending: function(file, xhr, formData) {
+                        xhr.setRequestHeader('X-File-Name', encodeURIComponent(file.name));
+                    },
                     success: (file, response) => {
                         if (file.previewElement) {
                             file.previewElement.classList.add("dz-success");
                         }
-                        let responseData = response.data;
                         $("#main-list-files").append(`
-              <li data-select="false">
-                <img src="${response.data.imgUrl}"/>
-
-                <div class="menu-image" data-id="${response.data.idUpload}"
-                    data-link="${response.data.imgUrl}" data-active="true">
-                    <span
-                        class="item-menu-image information-image ui-admin-information-circle">Informações</span>
-                    <span class="item-menu-image new-image ui-admin-visible-opened-eye-interface-option">Abrir
-                        em
-                        Aba</span>
-                    <span class="item-menu-image link-image ui-admin-link">Gerar Link</span>
-                    <span class="item-menu-image dowload-image ui-admin-download-interface-sign">Fazer
-                        Dowload</span>
-                    <span class="item-menu-image delete-image ui-admin-recycle-bin-outline">Deletar</span>
-                </div>
-                </li>
-              `);
-
+                            <li data-select="false">
+                                <img src="${response.data.imgUrl}"/>
+                                <div class="menu-image" data-id="${response.data.idUpload}"
+                                    data-link="${response.data.imgUrl}" data-active="true">
+                                    <span class="item-menu-image information-image ui-admin-information-circle">Informações</span>
+                                    <span class="item-menu-image new-image ui-admin-visible-opened-eye-interface-option">Abrir em Aba</span>
+                                    <span class="item-menu-image link-image ui-admin-link">Gerar Link</span>
+                                    <span class="item-menu-image dowload-image ui-admin-download-interface-sign">Fazer Dowload</span>
+                                    <span class="item-menu-image delete-image ui-admin-recycle-bin-outline">Deletar</span>
+                                </div>
+                            </li>
+                        `);
                         setTimeout(() => {
                             $(file.previewElement).fadeOut();
                         }, 2000);
                     },
-                    queuecomplete: function queuecomplete(file) {
-                        return false;
+                    queuecomplete: function(file) {
+                        if (file.status === 'success') {
+                            location.reload();
+                        }
                     },
                 });
+
             } else {
-                console.log(formUrl);
                 let myDropzone = new Dropzone("#my-dropzone", {
                     url: formUrl,
                     chunking: true,
                     method: "POST",
                     maxFilesize: 400000000,
                     chunkSize: 2000000,
-                    // Se true, os chunks individuais são enviados simultaneamente
                     parallelChunkUploads: false,
                     previewTemplate: drop,
                     addRemoveLinks: false,
                     dictRemoveFile: "Remove file",
-                    dictFileTooBig: "Image is larger than 200MB",
+                    dictFileTooBig: "File is too large",
                     timeout: 0,
+                    sending: function(file, xhr, formData) {
+                        xhr.setRequestHeader('X-File-Name', encodeURIComponent(file.name));
+                    },
                     success: (file, response) => {
                         if (file.previewElement) {
                             file.previewElement.classList.add("dz-success");
                         }
-                        let responseData = response.data;
                         setTimeout(() => {
                             $(file.previewElement).fadeOut();
                         }, 2000);
                     },
-                    queuecomplete: function queuecomplete(file) {
-                        return false;
+                    queuecomplete: function(file) {
+                        if (file.status === 'success') {
+                            location.reload();
+                        }
                     },
                 });
             }
+
         } else {
             let myDropzone = new Dropzone(".dropzone", {
                 uploadMultiple: false,

@@ -7,7 +7,7 @@
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="{{ isset($thisdata->config->name) ? $thisdata->config->name : env('APP_NAME') }}" />
-<meta property="og:description" content="{!! strip_tags($thisdata->config->description) ?? '' !!}" />
+<meta property="og:description" content="{!! strip_tags($thisdata->config->description ?? '') !!}" />
 <meta property="og:url" content="{{ url('/') }}">
 @endsection
 

@@ -80,23 +80,21 @@
         </p>
     </div>
     <div id="obraGaleriaGrid">
-        @foreach($thisdata->obra->images as $key => $imagem)
-        @if($key > 0)
-        <a href="{{ $imagem->default ?? '' }}"
-           class="obraGaleriaItem"
-           data-lightbox="galeria-obra"
-           data-title="{{ $thisdata->obra->nome }}"
-           data-aos="fade-up" data-aos-duration="1500"
-           aria-label="Ver imagem {{ $loop->iteration }} de {{ $thisdata->obra->nome }}">
-            <img class="lozad obraGaleriaImg"
-                 data-src="{{ $imagem->medium ?? '' }}"
-                 src="{{ $imagem->medium ?? '' }}"
-                 alt="{{ $thisdata->obra->nome }} — imagem {{ $loop->iteration }}"
-                 loading="lazy"
-                 decoding="async">
-        </a>
-        @endif
-        @endforeach
+        @foreach($thisdata->obra->images as $key=>$img)
+        <div class="obraGaleriaItem">
+            <a href="{{ $img->default }}" data-lightbox="galeery">
+                <figure class="obraCardImgWrap" data-aos="fade-up" data-aos-duration="900">
+                    <img class="obraCardImg"
+                        data-src="{{ $img->default ?? '' }}"
+                        src="{{ $img->default ?? '' }}"
+                        alt="{{ $thisdata->obra->nome . ' imagem ' . $key }}"
+                        itemprop="image"
+                        loading="lazy"
+                        decoding="async">
+                </figure>
+            </a>
+        </div>
+    @endforeach
     </div>
 </section>
 @endif

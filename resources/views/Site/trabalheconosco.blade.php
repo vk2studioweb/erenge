@@ -41,14 +41,6 @@
                         'required'
                     ]) !!}
                 </div>
-                <div class="trabalheFormField" data-aos="fade-up" data-aos-duration="800">
-                    {!! Form::email('email', null, [
-                        'class'       => 'trabalheFormInput',
-                        'placeholder' => 'Seu E-mail*',
-                        'aria-label'  => 'Seu e-mail',
-                        'required'
-                    ]) !!}
-                </div>
             </div>
 
             <div class="trabalheFormRow">
@@ -61,10 +53,28 @@
                     ]) !!}
                 </div>
                 <div class="trabalheFormField" data-aos="fade-up" data-aos-duration="800">
+                    {!! Form::email('email', null, [
+                        'class'       => 'trabalheFormInput',
+                        'placeholder' => 'Seu E-mail*',
+                        'aria-label'  => 'Seu e-mail',
+                        'required'
+                    ]) !!}
+                </div>
+            </div>
+            <div class="trabalheFormRow">
+                <div class="trabalheFormField" data-aos="fade-up" data-aos-duration="800">
                     {!! Form::text('cidade', null, [
                         'class'       => 'trabalheFormInput',
                         'placeholder' => 'Cidade*',
                         'aria-label'  => 'Sua cidade',
+                        'required'
+                    ]) !!}
+                </div>
+                <div class="trabalheFormField" data-aos="fade-up" data-aos-duration="500">
+                    {!! Form::text('cpf', null, [
+                        'class'       => 'trabalheFormInput trabalheFormMaskCpf',
+                        'placeholder' => 'Seu CPF',
+                        'aria-label'  => 'Seu CPF',
                         'required'
                     ]) !!}
                 </div>

@@ -34,9 +34,9 @@
             <h1 id="servicoDetalheTitle" itemprop="name" data-aos="fade-up" data-aos-duration="500">
                 {{ $thisdata->servico->nome }}
             </h1>
-            <div id="servicoDetalheTexto" itemprop="description" data-aos="fade-up" data-aos-duration="900">
-                {!! strip_tags($thisdata->servico->descricao ?? '', '<strong><br><p>') !!}
-            </div>
+            <article id="servicoDetalheTexto" itemprop="description" data-aos="fade-up" data-aos-duration="900">
+                {!! strip_tags($thisdata->servico->descricao ?? '', '<strong><br><p><ul><li><ol><p>') !!}
+            </article>
         </div>
 
     </div>
@@ -71,31 +71,35 @@
     <div class="box boxCollun" id="servicoObrasTitleWrap">
         <h2 id="servicoObrasTitle" data-aos="fade-up" data-aos-duration="500">
             {!! strip_tags($thisdata->texts['servicoObrasTitle'][0]->description ?? '', '<strong><br>') !!}
+            {{ $thisdata->serviconome }}
         </h2>
     </div>
     <div class="box boxRow" id="obrasExecutadasGrid">
         @foreach($thisdata->obras as $obra)
-            <article class="obraCard" itemscope itemtype="https://schema.org/CreativeWork">
+            <article class="obraCardGallery" itemscope itemtype="https://schema.org/CreativeWork">
+                <strong class="obraCardNomeGallery" itemprop="name" data-aos="fade-up-left" data-aos-duration="500">{{ $obra->nome }}</strong>
+                <ul id="obraCardImgList">
+                    @foreach($obra->images as $key=>$img)
+                        <li class="obraCardImgItem">
+                            <a href="{{ $img->default }}" data-lightbox="galeery">
+                                <figure class="obraCardImgWrap" data-aos="fade-up" data-aos-duration="900">
+                                    <img class="obraCardImg"
+                                        data-src="{{ $img->default ?? '' }}"
+                                        src="{{ $img->default ?? '' }}"
+                                        alt="{{ $obra->nome . ' imagem ' . $key }}"
+                                        itemprop="image"
+                                        loading="lazy"
+                                        decoding="async">
+                                </figure>
+                            </a>
+                        </li>
+                    @endforeach
+
+                </ul>
+                
                 <a href="{{ route('obras.show', ['slug'=>urlencode($obra->nome), 'id'=>$obra->id_obra]) }}"
                 class="obraCardLink"
-                aria-label="Ver obra {{ $obra->nome }}">
-                    <figure class="obraCardImgWrap" data-aos="fade-up" data-aos-duration="900">
-                        <img class="obraCardImg"
-                            data-src="{{ $obra->images[0]->default ?? '' }}"
-                            src="{{ $obra->images[0]->default ?? '' }}"
-                            alt="{{ $obra->nome }}"
-                            itemprop="image"
-                            loading="lazy"
-                            decoding="async">
-                    </figure>
-                    <div class="obraCardInfo">
-                        <strong class="obraCardNome" itemprop="name" data-aos="fade-up-left" data-aos-duration="500">{{ $obra->nome }}</strong>
-                        <span class="obraCardLocal" data-aos="fade-up-left" data-aos-duration="800">{{ $obra->local_obra }}</span>
-                        <button
-                        class="obraCardButton"
-                        data-aos="fade-up" data-aos-duration="1000"
-                        aria-label="Ver detalhes da obra {{ $obra->nome }}">Ver detalhes</button>
-                    </div>
+                aria-label="Ver obra {{ $obra->nome }}"></a>
                 </a>
             </article>
         @endforeach
